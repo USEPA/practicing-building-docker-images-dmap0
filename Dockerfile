@@ -1,7 +1,9 @@
 # The image is based off of the rocker base image, which you can learn about here:
 # https://rocker-project.org/
 # The image is based off of ubuntu, but then runs a few scripts to install R and R shiny
-FROM rocker/shiny:latest
+FROM rocker/shiny:4.2.2
+
+
 
 # I added this label, though it doesn't do anything
 LABEL name=MyPracticeApp1
